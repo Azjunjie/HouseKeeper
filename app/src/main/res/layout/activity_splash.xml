@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiumei.housekeeper.SplashActivity">
+
+    <Button
+        android:id="@+id/btn_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCustomer"
+        android:text="自定义Toast" />
+
+    <Button
+        android:id="@+id/btn_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSystem"
+        android:text="多系点击处理Toast" />
+
+    <Button
+        android:id="@+id/btn_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDefault"
+        android:text="系统默认Toast" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+</LinearLayout>
